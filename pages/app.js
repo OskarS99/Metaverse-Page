@@ -1,5 +1,5 @@
-import Head from "next/head";
-import "../styles/globals.css";
+import Head from 'next/head';
+import '../styles/globals.css';
 
 const App = ({ Component, pageProps }) => (
   <>
@@ -16,3 +16,4 @@ const App = ({ Component, pageProps }) => (
     <Component {...pageProps} />
   </>
 );
+export default App;
