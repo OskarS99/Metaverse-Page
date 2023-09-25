@@ -11,7 +11,7 @@ export const exploreWorlds = [
   },
   {
     id: 'world-3',
-    img: 'planet-03.png',
+    img: 'public/planet-03.png',
     title: 'Kadirojo Permai',
   },
   {
