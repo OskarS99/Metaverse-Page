@@ -1,5 +1,5 @@
 # Metaverse - Page
-![Page](public/website.png)
+![Page](public/metaverse-website.gif)
 ## Demo
 [https://oskars99.github.io/Personal-Homepage/](https://oskars99.github.io/Metaverse-Page/)
 
