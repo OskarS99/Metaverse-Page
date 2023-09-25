@@ -11,17 +11,17 @@ export const exploreWorlds = [
   },
   {
     id: 'world-3',
-    img: '/planet-03.png',
+    img: 'planet-03.png',
     title: 'Kadirojo Permai',
   },
   {
     id: 'world-4',
-    img: '/planet-04.png',
+    img: 'planet-04.png',
     title: 'Paradise Island',
   },
   {
     id: 'world-5',
-    img: '/planet-05.png',
+    img: 'planet-05.png',
     title: 'Hawkins Labs',
   },
 ];
