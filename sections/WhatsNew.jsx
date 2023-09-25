@@ -12,12 +12,10 @@ const WhatsNew = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: 'false', amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
-    >
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}>
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.75] flex justify-center flex-col"
-      >
+        className="flex-[0.75] flex justify-center flex-col">
         <TypingText title="| Whats's New?" />
         <TitleText title={<>What's new about Metaversus?</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
@@ -28,8 +26,7 @@ const WhatsNew = () => (
       </motion.div>
       <motion.div
         variants={planetVariants('right')}
-        className={`flex-1 ${styles.flexCenter}`}
-      >
+        className={`flex-1 ${styles.flexCenter}`}>
         <img
           src="whats-new.png"
           alt="whats-new"
@@ -37,7 +34,6 @@ const WhatsNew = () => (
         />
       </motion.div>
     </motion.div>
-    Get Started Section
   </section>
 );
 

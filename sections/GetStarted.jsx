@@ -13,12 +13,10 @@ const GetStarted = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: 'false', amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
-    >
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}>
       <motion.div
         variants={planetVariants('left')}
-        className={`flex-1 ${styles.flexCenter}`}
-      >
+        className={`flex-1 ${styles.flexCenter}`}>
         <img
           src="get-started.png"
           alt="get-started"
@@ -27,8 +25,7 @@ const GetStarted = () => (
       </motion.div>
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
-        className="flex-[0.75] flex justify-center flex-col"
-      >
+        className="flex-[0.75] flex justify-center flex-col">
         <TypingText title="| How Metaversus works" />
         <TitleText title={<>Get started with just a few clicks</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
@@ -38,7 +35,6 @@ const GetStarted = () => (
         </div>
       </motion.div>
     </motion.div>
-    Get Started Section
   </section>
 );
 
