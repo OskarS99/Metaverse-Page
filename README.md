@@ -1,19 +1,22 @@
 # Metaverse - Page
 ![Page](public/website.png)
 ## Demo
-https://oskars99.github.io/Personal-Homepage/
+[https://oskars99.github.io/Personal-Homepage/](https://oskars99.github.io/Metaverse-Page/)
 
 ## Descritpion
-A project in which I present myself. There are my data, skills and future plans. The project was created using the React library.
+A nice page which describe information about "Metaverse". Webpage created using graphic project from Figma.
 
 ## Used Technology
 ### HTML
 ### CSS
+### CSS Framework
+   - TailwindCSS
 ### JavaScript
 ### JS Library
    - React.js
    - Redux
-
+### React Framework
+   - Next.js
 ## Getting Started
 
 First, run the development server:
@@ -27,4 +30,8 @@ yarn dev
 In the project directory, you can run:
 
 ### `npm start`
+
+### `npm build`
+
+
 
